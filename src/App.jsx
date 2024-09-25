@@ -1,10 +1,10 @@
-import Header from "./Header"
-import Elements from "./Elements"
+import Card from './Card.jsx'
+import Greetings from './Greetings.jsx'
 function App() {
   return(
     <>
-      <Header/>
-      <Elements/>
+      <Card/>
+      <Greetings isLoggedIn={true} userName="Ryusen"/>
     </>
   )
 }
